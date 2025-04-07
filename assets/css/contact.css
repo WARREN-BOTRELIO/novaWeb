@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    z-index: 3;
+}
+
+.leftbox{
+    border: 1px solid #FF4A37;
+    color: #fff;
+    padding: 35px;
+    padding-top: 80px;
+    /* border-radius: 0 0 5px 5px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+    width: 15%;
+    height: 240px;
+    background:linear-gradient(90deg, #FF4A37 50%  , #FF476D);
+    box-shadow: 2px 6px 6px  #ADADAD;
+}
+
+.welcome{
+    font-size: 25px;
+    text-align: center;
+}
+
+.leftbox p{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 11px;
+    /* background-color: black; */
+   
+    
+}
+
+.buttonContainer{
+    padding: 5px 0;
+    padding-left: 15%;
+    /* background-color: black; */
+    
+}
+
+  .sumit{
+    display: block;
+    padding: 8px 30px 8px 30px;
+    border: 2px solid #fff;
+    text-align: center;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: inherit;
+    
+}
+
+.rightbox{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 35px;
+    padding-top: 80px;
+    border-radius: 0 0 5px 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    width: 15%;
+    height: 240px;
+    /* background:#FFFFFF; */
+    background: inherit;
+    box-shadow: 5px 5px 15px  #ADADAD;
+}
+
+.rightbox form h1{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -15px;
+}
+
+
+.downContainer{
+    margin: 10px 0;
+}
+
+input{
+    display: block;
+    padding:5px;
+    width: 100%;
+    outline: none;
+    background: #EEEEEE;
+    color: #444141;
+    border: 1px solid #EEEEEE;
+    padding-left: 10px;
+}
+
+input:focus{
+    border: 0.5px solid #FF476D;
+}
+
+/* form{
+    width: fit-content;
+} */
+.lastContainer{
+padding-left: 40px;
+}
+.rightbox form .lastContainer .sumit{
+    background-color: #FF4A2D;
+    
+}
+
+
+
